@@ -1,0 +1,30 @@
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    width: 100%; /* Ensure the footer spans the entire width */
+    position: relative;
+    bottom: 0;
+    margin-top: auto; /* Ensures footer is pushed to bottom of the content */
+}
+
+/* Contact Info in Footer */
+footer .contact-info {
+    text-align: center;
+}
+
+footer .contact-info a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .contact-info a:hover {
+    color: #17a2b8;
+}
+
+footer .contact-info i {
+    margin-right: 8px;
+}
