@@ -34,32 +34,19 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Sina Bahrami</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Specialties
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="industrial-automation.html">Industrial Automation</a>
-                            <a class="dropdown-item" href="simulation.html">Simulation</a>
-                            <a class="dropdown-item" href="data-analytics.html">Data & Analytics</a>
-                            <a class="dropdown-item" href="ai.html">AI</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Include Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+    
+    <script>
+        // Load the navbar content from navbar.html
+        document.addEventListener("DOMContentLoaded", function(){
+            fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+        });
+    </script>
 
     <div class="container mt-5">
         <section id="industrial-automation">
