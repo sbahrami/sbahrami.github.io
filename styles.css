@@ -18,9 +18,8 @@ footer {
     color: white;
     padding: 20px 0;
     width: 100%; /* Ensure the footer spans the entire width */
-    position: sticky;
+    position: fixed;
     bottom: 0;
-    margin-top: auto; /* Ensures footer is pushed to bottom of the content */
 }
 
 /* Contact Info in Footer */
