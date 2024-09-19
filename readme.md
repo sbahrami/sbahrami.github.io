@@ -1,6 +1,6 @@
 # Sina Bahrami's GitHub Page
 
-![Sina Bahrami](./media/profile_img.jpg)
+<img src="./media/profile_img.jpg" alt="Profile Photo" width="300" height="300">
 
 Welcome to my personal GitHub page. Here you can find information about my projects and interests.
 
