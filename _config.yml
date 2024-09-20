@@ -2,7 +2,7 @@ title: Profile
 description: Welcome to my personal GitHub page. Here you can find information about my projects and interests.
 url: "https://sbahrami.github.io" # the base hostname & protocol for your site
 
-theme: jekyll-theme-simplex # You can change this to any Jekyll theme you prefer
+theme: simplex # You can change this to any Jekyll theme you prefer
 
 # Build settings
 # markdown: kramdown
