@@ -1,3 +1,5 @@
+![Sina Bahrami](./media/profile_img.jpg)
+
 ## About Me
 
 As a Data & Analytics specialist and a former Mechanical Engineer with over 7 years of experience and 20+ successful projects in industrial automation, I am dedicated to leveraging advanced technology to contribute to various industries.
