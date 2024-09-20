@@ -1,9 +1,3 @@
-# Sina Bahrami's GitHub Page
-
-<img src="./media/profile_img.jpg" alt="Profile Photo" width="300" height="300">
-
-Welcome to my personal GitHub page. Here you can find information about my projects and interests.
-
 ## About Me
 
 As a Data & Analytics specialist and a former Mechanical Engineer with over 7 years of experience and 20+ successful projects in industrial automation, I am dedicated to leveraging advanced technology to contribute to various industries.
